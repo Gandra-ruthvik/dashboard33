@@ -1,0 +1,13 @@
+n=int(input("enter a amount:"))
+if n>=500:
+	note500 = n//500
+	n = n%500
+	print("500 notes =",note500)
+if n>=200:
+	note200=n//200
+	n=n%200
+	print("200 notes=",note200)
+if n>=100:  
+    note100=n//100
+    n=n%100
+    print("100 notes=",note100)
